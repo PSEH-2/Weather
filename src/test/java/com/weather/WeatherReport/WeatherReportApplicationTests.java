@@ -40,18 +40,9 @@ class WeatherReportApplicationTests {
 
 	@Test
 	public void weather() throws Exception {
-		WeatherForecast weather = new WeatherForecast();
-		weather.setName("London");
-		
-		
-//		setWeatherEntry(weather, 286, 800.0, "rain",Instant.ofEpochSecond(1234));
-//		given(this.weatherService.getWeatherForecast("uk", "london")).willReturn(weather);
-//		this.mvc.perform(get("/api/weather/now/uk/london")).andExpect(status().isOk())
-//				.andExpect(jsonPath("$.name", is("London"))).andExpect(jsonPath("$.temperature", is(286.72)))
-//				.andExpect(jsonPath("$.temp_max", is(800))).andExpect(jsonPath("$.weatherIcon", is("01d")))
-//				.andExpect(jsonPath("$.temp_min", is("1970-01-01T00:20:34Z")));
-//		verify(this.weatherService).getWeatherForecast("uk", "london");
+	
 	}
+	
 
 
 	private static void setWeatherEntry(WeatherEntry entry, double temp_min, double temp_max, String raindes,
